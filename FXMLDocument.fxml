@@ -25,4 +25,103 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
+            <Button mnemonicParsing="false" onAction="#handlerGeneralAction" prefHeight="50.0" prefWidth="60.0" styleClass="button-blue" text="AC">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerGeneralAction" prefHeight="50.0" prefWidth="60.0" styleClass="button-blue" text="+/-" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerGeneralAction" prefHeight="50.0" prefWidth="60.0" styleClass="button-blue" text="\%" GridPane.columnIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerGeneralAction" prefHeight="50.0" prefWidth="60.0" styleClass="button-orange" text="/" GridPane.columnIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerDigitAction" prefHeight="50.0" prefWidth="60.0" text="7" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerDigitAction" prefHeight="50.0" prefWidth="60.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerDigitAction" prefHeight="50.0" prefWidth="60.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerGeneralAction" prefHeight="50.0" prefWidth="60.0" styleClass="button-orange" text="*" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerDigitAction" prefHeight="50.0" prefWidth="60.0" text="4" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerDigitAction" prefHeight="50.0" prefWidth="60.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerDigitAction" prefHeight="50.0" prefWidth="60.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerGeneralAction" prefHeight="50.0" prefWidth="60.0" styleClass="button-orange" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerDigitAction" prefHeight="50.0" prefWidth="60.0" text="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerDigitAction" prefHeight="50.0" prefWidth="123.0" text="0" GridPane.columnSpan="2" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerDigitAction" prefHeight="50.0" prefWidth="60.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerGeneralAction" prefHeight="50.0" prefWidth="60.0" styleClass="button-orange" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerDecimalAction" prefHeight="50.0" prefWidth="60.0" text="." GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerDigitAction" prefHeight="50.0" prefWidth="60.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerEqualAction" prefHeight="50.0" prefWidth="60.0" styleClass="button-orange" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="1.0" right="1.0" top="1.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+   </children>
+</VBox>
 
